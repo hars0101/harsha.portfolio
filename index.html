@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible=" IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imadabathuni Harsha Venkat - Portfolio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+
+        .hero-section {
+            background-image: url('https://raw.githubusercontent.com/hars0101/imgg/refs/heads/main/fullimg.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+        }
+
+        .hero-section h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero-section p {
+            font-size: 1.25rem;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-section .card {
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .card-section .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card-img-top {
+            height: 40vh;
+        }
+
+        .carousel-inner img {
+            height: 60vh;
+            obje ct-fit: cover;
+        }
+
+        .logo {
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#">Harsha Venkat's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero-section">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="hero-section" id="hero-section">
+            <h1>Imadabathuni Harsha Venkat</h1>
+            <p>AI/ML Enthusiast | Web Developer | Innovator</p>
+            <a href="https://www.linkedin.com/in/harsha0101/" class="btn btn-primary btn-lg mt-3">Connect on LinkedIn</a>
+        </div>
+
+        <!-- About Me Section -->
+        <div class="container my-5" id="About">
+            <h2 class="text-center mb-4">About Me</h2>
+            <p class="text-center mb-5">
+                Hello! I'm Imadabathuni Harsha Venkat, an enthusiastic B.Tech student in Artificial Intelligence and Machine Learning.
+                My passion lies at the intersection of innovative problem-solving and emerging technologies.
+                I enjoy creating intelligent solutions, whether through ensemble machine learning models, explainable AI, or web development projects.
+                <br><br>
+                Throughout my academic and project experience, I've worked on diverse applications like building an AI-powered drone system
+                for automated tasks, developing predictive models for critical healthcare issues, and creating user-friendly web applications.
+                I'm driven to make impactful contributions in the tech world and am always keen to learn and grow!
+            </p>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <i class="fas fa-robot fa-3x mb-3 text-primary"></i>
+                <h4>Machine Learning</h4>
+                <p>From Quantum Support Vector Classifiers to SHAP model interpretation, I explore cutting-edge technologies.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <i class="fas fa-code fa-3x mb-3 text-success"></i>
+                <h4>Web Development</h4>
+                <p>Creating dynamic web applications like Census Data Dashboards and Car Data APIs using modern stacks.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <i class="fas fa-lightbulb fa-3x mb-3  text-danger"></i>
+                <h4>Innovation</h4>
+                <p>Working on projects like 'Drone Fish Feeding' and ideathon solutions for waste-to-energy systems.</p>
+            </div>
+        </div>
+        <!-- Image Carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide my-5" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://raw.githubusercontent.com/hars0101/imgg/refs/heads/main/fullimg.jpg" class="d-block w-100" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://raw.githubusercontent.com/hars0101/imgg/refs/heads/main/2.jpg" class="d-block w-100" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://raw.githubusercontent.com/hars0101/imgg/refs/heads/main/3.jpg" class="d-block w-100" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only ">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Project Highlights Section -->
+    <div class=" my-5 card-section container" id="Projects">
+        <h2 class="text-center mb-4">Key Projects</h2>
+        <div class="card-deck row">
+            <!-- Project 1 -->
+            <div class="col-12 col-md-4 mb-3">
+                <div class="card">
+                    <img src="https://raw.githubusercontent.com/hars0101/imgg/refs/heads/main/spaceship.png" class="card-img-top" alt="Spaceship Titanic">
+                    <div class="card-body">
+                        <h5 class="card-title">Spaceship Titanic Rescue Mission</h5>
+                        <p class="card-text">A classification project using ensemble models to predict passenger fates during a spacetime anomaly. This project achieved an accuracy of 80.68% using VotingClassifier with tuned RandomForest and GradientBoosting models.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="https://raw.githubusercontent.com/hars0101/imgg/refs/heads/main/heart-desease.jpg" class="card-img-top" alt="Heart Disease Prediction">
+                    <div class="card-body">
+                        <h5 class="card-title">Explainable Heart Disease Prediction</h5>
+                        <p class="card-text">An ensemble-quantum machine learning approach utilizing Quantum Support Vector Classifier (QSVC) and SHAP for feature contribution analysis. Compared QSVC with classical models to enhance prediction reliability and interpretability.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="https://raw.githubusercontent.com/hars0101/imgg/refs/heads/main/fish.png" class="card-img-top" alt="Drone Fish Feeding">
+                    <div class="card-body">
+                        <h5 class="card-title">Drone Fish Feeding System</h5>
+                        <p class="card-text">An AI-enabled drone system developed using Jetson Nano to automate fish feeding operations. This project highlights how smart technologies can be applied to agriculture and aquaculture for efficiency and precision.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 4 -->
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="https://raw.githubusercontent.com/hars0101/imgg/refs/heads/main/waste.jpg" class="card-img-top" alt="Waste to Energy">
+                    <div class="card-body">
+                        <h5 class="card-title">Waste-to-Energy Ideathon</h5>
+                        <p class="card-text">An ideathon project that addresses waste management challenges by converting waste materials into sustainable energy. Focused on environmental impact, energy conversion efficiency, and economic feasibility.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 5 -->
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="https://raw.githubusercontent.com/hars0101/imgg/refs/heads/main/bank.jpg" class="card-img-top" alt="ATM Security">
+                    <div class="card-body">
+                        <h5 class="card-title">ATM Security System</h5>
+                        <p class="card-text">A security enhancement project integrating RF technology and facial recognition to ensure secure ATM transactions. Combines hardware and software components for real-time authentication and fraud prevention.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 6 -->
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="https://raw.githubusercontent.com/hars0101/imgg/refs/heads/main/Census.png" class="card-img-top" alt="Census Dashboard">
+                    <div class="card-body">
+                        <h5 class="card-title">Interactive Census Data Dashboard</h5>
+                        <p class="card-text">A web application built to visualize and analyze India's census data. Utilized responsive design principles and APIs to provide users with an interactive and informative experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5" id="contact">
+        <h2>Contact Us</h2>
+        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#contactModal">Open Contact Form</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="contactModalLabel">Contact Form</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="modalName">Name:</label>
+                                <input type="text" class="form-control" id="modalName" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="modalEmail">Email:</label>
+                                <input type="email" class="form-control" id="modalEmail" placeholder="Enter your email">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="logo">
+        <a href="https://www.linkedin.com/in/harsha0101/"><i class="fa-brands fa-linkedin fa-beat"></i></a>
+        <a href="https://github.com/hars0101"><i class="fa-brands fa-github fa-beat"></i></a>
+        <a href="https://instagram.com/harsha.0101?igshid=MzMyNGUyNmU2YQ=="><i class="fa-brands fa-instagram fa-beat"></i></a>
+        <a href="https:iharsha.online"><i class="fa-solid fa-globe fa-beat"></i></a>
+        <a href="https://www.snapchat.com/add/harsha.0101?share_id=u4sMAvPKTJE&locale=en-US"><i class="fa-brands fa-snapchat fa-beat"></i></a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Imadabathuni Harsha Venkat. All rights reserved.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/258ead571f.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
